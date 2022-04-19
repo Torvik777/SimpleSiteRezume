@@ -1,0 +1,338 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gilroy-Bold';
+}
+header
+{
+    padding: 0px;
+    margin: 0px;
+
+   
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+}
+.container
+{
+    width: 940px;
+    margin: auto;
+}
+.menu-div
+{
+    width: 100%;
+    height: 88px;   
+    display: flex;
+
+}
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #828282;
+
+}
+.menu-open
+{
+    display: none;
+}
+.menu li a
+{
+text-decoration: none;
+color: #828282;
+}
+.menu .menu-home a
+{
+    color: #070707;
+}
+.main-info
+{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end ;
+}
+.name
+{
+    text-align: left;
+    font-size: 47.3392px;
+    line-height: 59px;
+}
+.shot-info
+{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 50px;
+}
+.languages
+{
+    font-size: 16px;
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg);
+  
+    margin-bottom:54px ;
+}
+.Man-foto-mobile
+{
+    display: none;
+}
+
+/* ABOUT ME */
+.about-me-section
+{
+    margin-top:104px;
+    width: 100%;
+    background-color:#F6F6F6;
+    display: flex;
+    text-align: center;
+}
+.about-me-section h2
+{
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+.about-me-information
+{
+    margin-bottom: 107px;
+}
+
+/* SKILLS */
+
+
+.skills-section h2
+{
+    margin-top: 91px;
+    margin-bottom: 0px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align:center;
+}
+.i-work-in
+{
+    margin-top: 69px;
+    text-align:center;
+    margin-bottom:83px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.programs
+{   
+    
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start:0px;
+    margin-bottom:110px;
+}
+.program-img
+{
+    display: flex;
+    margin: auto;
+}
+.programs p
+{
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+.stars
+{
+    display: flex;
+    list-style-type:none;
+    padding-inline-start:0px;
+}
+
+/* PORTFOLIO */
+.portfolio
+{
+    background-color:#F6F6F6; 
+}
+.portfolio h2
+{
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 112px;
+    margin-bottom: 47px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+.portfolio p
+{
+    text-align: center;
+    margin-top:44px ;
+    margin-bottom: 0px;
+    padding-bottom: 100px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+/* FOOTER */
+footer
+{
+    text-align: center;
+}
+footer h2
+{
+    margin-top: 0px;
+    padding-top: 114px;
+    margin-bottom: 0px;
+    font-size: 34px;
+    line-height: 42px;
+    
+}
+.whant-to-know
+{
+    margin-top: 20px;
+    margin-bottom: 29px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+}
+.button-send
+{
+    display: block;
+    margin: auto;
+    background-color: black;
+    border-radius: 80px;
+    padding: 10px 29px;
+    
+}
+.button-send a
+{
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+footer img
+{
+    margin-top: 80px;
+}
+.like-me-on
+{
+    margin-top: 45px;
+    margin-bottom: 0px;
+    padding-bottom:123px ;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+/* Adaptive */
+
+@media screen and (max-width: 768px) {
+    .container
+    {
+        width: 540px;
+    }
+    .container img
+    {
+        width: 100%;
+    }
+  
+}
+@media screen and (max-width: 539px)
+{
+    .container
+    {
+        width: 375px;
+    }
+
+
+    .Man-foto
+    {
+        display: none;
+    }
+    .Man-foto-mobile
+    {
+        display: unset;
+    }
+    .programs
+    {
+        flex-direction: column;
+    }
+    .i-work-in
+    {
+        margin-bottom: 0px;
+    }
+    .container .program-img
+    {
+        width: 89px;
+        margin-top: 70px;
+    }
+    .stars
+    {
+        justify-content: center;
+    }
+    .menu-div
+    {
+       height: 0px;
+    }
+    .menu
+    {
+        display: none;
+    }   
+   .menu-open
+   {
+       display: unset;
+       position: absolute;
+       top: 68px;
+       right: 30px;
+       background-color: white;
+       border: none;
+       
+   }
+   .languages
+   {
+       display: none;
+   }
+   .main-info
+   {
+       flex-direction: column;
+       align-items:flex-start;
+        
+   }
+    .show-menu
+    {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: unset;    
+    }
+    .show-menu li
+    {
+        margin-top: 65px;
+    }
+    .show-menu a
+    {
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .show-menu-div
+    {
+        height: 650px;
+    }
+    
+}
+
+
